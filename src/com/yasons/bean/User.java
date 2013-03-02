@@ -28,8 +28,6 @@ public class User {
 	
 	private boolean isBusinesser;
 	
-	private String location;
-
 	@Id
 	@GeneratedValue
 	public long getId() {
@@ -89,23 +87,13 @@ public class User {
 	public void setBusinesser(boolean isBusinesser) {
 		this.isBusinesser = isBusinesser;
 	}
-	
-	public String getLocation() {
-		return location;
-	}
-
-	public void setLocation(String location) {
-		this.location = location;
-	}
 
 	@Override
 	public String toString() {
-		return "User [email=" + email + ", id=" + id + ", isBusinesser="
-				+ isBusinesser + ", location=" + location + ", password="
-				+ password + ", phoneNum=" + phoneNum + ", sex=" + sex
-				+ ", username=" + username + "]";
+		return "User [id=" + id + ", phoneNum=" + phoneNum + ", password="
+				+ password + ", username=" + username + ", email=" + email
+				+ ", sex=" + sex + ", isBusinesser=" + isBusinesser + "]";
 	}
 
-	
 	
 }

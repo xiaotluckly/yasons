@@ -27,8 +27,6 @@ public class Store {
 	
 	private Businesser bussinesser;
 	
-	private String location;
-	
 	private Set<Goods> goods=new HashSet<Goods>();;
 	
 	private Set<Order> orders=new HashSet<Order>();;
@@ -110,14 +108,5 @@ public class Store {
 	public void setOrders(Set<Order> orders) {
 		this.orders = orders;
 	}
-
-	public String getLocation() {
-		return location;
-	}
-
-	public void setLocation(String location) {
-		this.location = location;
-	}
-
 	
 }
