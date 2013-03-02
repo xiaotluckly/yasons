@@ -1,1 +1,1 @@
-运行之前现在mysql中建立数据库yason
+运行之前先在mysql中建立数据库yason
